@@ -1,0 +1,42 @@
+assimilate3d.0.1.4 - Updated to compile in MinGW/MSys and Linux
+                   - Issues with multitexturing under linux? (Or is it my VirtualBox?)
+assimilate3d.0.1.3 - clicking "New Game" now actually loads a map ... der.
+                   - I_halfChop removes trailing spaces
+
+assimilate3d.0.1.2 - improved skybox internals (and created some more skyboxes!)
+                     new command: sky
+                   - integrated sunlight with skybox light
+                   - fixed falling through when sliding against walls
+                     (need to finish fixing)
+                   - changed clear color to blue :)
+
+assimilate3d.0.1.1 - Finished basic TCP system.
+                     New commands: sv_start, sv_shutdown, connect, disconnect
+                     New cvar:  sv_port
+                   - Merged makefile.cygwin and makefile.linux into one makefile
+                     using conditionals, finally.
+
+assimilate3d.0.1.0 - Starting on Internet networking, client/server game model!
+                   - rearranged source hierarchy for client/server system
+                   - created completely new makefile for new source file layout
+
+assimilate3d.0.0.4 - improved console output buffer internals
+                   - added text wrap to console output buffer
+                   - improved font coloring internals
+                   - added font structure containing font dimensions and texture
+                   - increased console velocity when opening/closing
+                   - set initial resolution in sdl.h (SCREEN_WIDTH, SCREEN_HEIGHT)
+                   - no more hardcoded screen resolution code
+                   - fixed movement physics regarding maxspeeds, added 'maxspeed' cvar
+                   - todo: make vid_restart command to change screen resolution
+                   
+
+assimilate3d.0.0.3 - improved font handling to support multiple font sets
+                   - improved font rendering speed - eliminated lists
+                   - renamed /data/textures/data/ to /data/textures/system/
+
+assimilate3d-0.0.2 - added font coloring support to F_printf (font.c)
+                   - colorized some misc text throughout
+                   - some misc code clean-ups
+
+assimilate3d-0.0.1 - initial source release
