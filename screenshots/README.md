@@ -12,5 +12,9 @@
 
 ![sunset screenshot](sunset.jpg)
 
-![console screenshot](console.jpg)
+![console screenshot](console.png)
+
+![console colors screenshot](colors.png)
+
+![cvars screenshot](cvars.png)
 
