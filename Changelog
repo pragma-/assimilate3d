@@ -1,5 +1,6 @@
 assimilate3d.0.1.4 - Updated to compile in MinGW/MSys and Linux
                    - Issues with multitexturing under linux? (Or is it my VirtualBox?)
+
 assimilate3d.0.1.3 - clicking "New Game" now actually loads a map ... der.
                    - I_halfChop removes trailing spaces
 
@@ -29,7 +30,6 @@ assimilate3d.0.0.4 - improved console output buffer internals
                    - no more hardcoded screen resolution code
                    - fixed movement physics regarding maxspeeds, added 'maxspeed' cvar
                    - todo: make vid_restart command to change screen resolution
-                   
 
 assimilate3d.0.0.3 - improved font handling to support multiple font sets
                    - improved font rendering speed - eliminated lists
@@ -40,3 +40,40 @@ assimilate3d-0.0.2 - added font coloring support to F_printf (font.c)
                    - some misc code clean-ups
 
 assimilate3d-0.0.1 - initial source release
+
+23/05/04: Sourceforge project 'assimilate3d' registered.
+          assimilate-0.0.1 released.
+09/05/04: Extremely basic physics added:  gravity and friction.
+08/05/04: Entities.  Camera system rewritten to use entities.
+          New commands:  entities, entload, entselect, entposition
+01/05/04: Improved camera movement to include collision detection against the BSP.
+28/04/04: Quake3 BSP format support.
+          New commands:  map
+25/04/04: Added gui elements and a gui system.
+20/04/04: Added skybox.
+20/04/04: Improved camera.
+          Mouse look added, new cvars: m_pitchspeed, m_yawspeed,
+          m_sensitivty.
+17/04/04: Added time element.
+15/04/04: Camera implemented.
+14/04/04: Camera cvars, aliases, and binds added.
+13/04/04: Now loads and executes commands from 'mygame.cfg' at start up.
+13/04/04: Added /exec command.
+13/04/04: Console variables expand in strings, eg: set foo 1; echo $foo
+12/04/04: Added support for keybindings and keynames (>/bind escape quit)
+          New commands:  bind, unbind, bindlist
+12/04/04: Added support for console variables and aliases.
+          New commands:  set, unset, cvars, alias, unalias, aliaslist
+25/03/04: Added support for console commands.
+          New commands:  quit, echo, help
+25/03/04: Console transparency animation, background textures.
+25/03/04: Starting on quake-style console.
+24/03/04: Binary MilkShape3d model support w/textures.
+24/03/04: Basic model support.
+24/03/04: Some math functions.
+23/03/04: Basic font support.
+23/03/04: TGA texture support.
+23/03/04: Basic texture support.
+22/03/04: Main
+22/03/04: SDL and OpenGL support.
+22/03/04: Beginning 3D engine project.
