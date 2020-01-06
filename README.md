@@ -23,4 +23,10 @@ assimilate3d is a simple Quake-like OpenGL 3D engine
 * Skyboxes
 * Very basic physics
 
+# Quick-look video
+
+[![quick-look video](https://img.youtube.com/vi/N3xdJlS9l3M/0.jpg)](https://www.youtube.com/watch?v=N3xdJlS9l3M)
+
+# Screenshots
+
 Check out the [screenshots](screenshots)!
