@@ -11,3 +11,6 @@
 ![day screenshot](day.jpg)
 
 ![sunset screenshot](sunset.jpg)
+
+![console screenshot](console.jpg)
+
