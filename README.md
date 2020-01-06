@@ -6,6 +6,7 @@ assimilate3d is a simple Quake-like OpenGL 3D engine
 
 # Features
 
+* Written in Standard C89
 * Cross-platform: Linux, Windows, Mac
 * SDL and OpenGL support.
 * TGA texture support.
