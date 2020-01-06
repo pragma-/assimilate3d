@@ -1,6 +1,6 @@
 # assimilate3d
 
-assimilate3d is very simple Quake-like OpenGL 3D engine
+assimilate3d is a simple Quake-like OpenGL 3D engine
 
 ![screenshot](screenshots/entities2.jpg)
 
@@ -17,7 +17,7 @@ assimilate3d is very simple Quake-like OpenGL 3D engine
 * Quake-style console variables and interpolation, aliasing, etc
 * Easy keybindings and keynames; e.g. `bind escape quit`, `bind mouse1 +attack`, `bind w +forward`
 * Console variables expand in strings, eg: `set foo 1; echo $foo` -- prints `1`
-* Can `exec` configuration scripts; e.g. see [`mygame.cfg`](mygame.cfg)
+* Can `exec` configuration scripts; e.g. see [mygame.cfg](mygame.cfg)
 * Tons of console variables controlling state and behavior of game engine
 * Skyboxes
 * Very basic physics
